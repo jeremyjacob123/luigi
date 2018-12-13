@@ -25,14 +25,6 @@ a, a:visited { /* makes the color of visited links and links the same*/
 }
 
 
-p { /*gives text breathing room */
-  margin: 0.5em 0.25em;
-  font-size: 1em;
-  padding: 0.25em;
-  text-align: center;
-  font-variant: small-caps;
-}
-
 
 h1 {/* sets what titles should look like*/
   font-size: 1.75em;
@@ -58,6 +50,14 @@ h3 {
   color: white;
 
 }
+p { /*gives text breathing room */
+  margin: 0.5em 0.25em;
+  font-size: 1em;
+  padding: 0.25em;
+  text-align: center;
+  font-variant: small-caps;
+}
+
 
 #directions ul li {/* sets the unordered list and items in directions section*/
   font-weight: bold;
@@ -96,15 +96,6 @@ font-size: 13px;
 
 
 
-nav ul li {  /*sets style for the nav bar*/
-  background-color:#5d5c61;
-  border-bottom: 2px solid #594846;
-  text-align: center;
-  display: block;
-  float: left;
-  padding: 0.25em 0;
- 
-}
 
 
 nav li a {/*sets style for the list item and the a href */
@@ -114,6 +105,15 @@ nav li a {/*sets style for the list item and the a href */
  
 }
 
+nav ul li {  /*sets style for the nav bar*/
+  background-color:#5d5c61;
+  border-bottom: 2px solid #594846;
+  text-align: center;
+  display: block;
+  float: left;
+  padding: 0.25em 0;
+ 
+}
 
 .footer { /* sets style for the footer */
   background-color: #f9f3e9;
@@ -134,9 +134,9 @@ nav li a {/*sets style for the list item and the a href */
 }
 
 
-nav {/* makes sure that the nav doesnt go below 20px */
-  min-height: 20px;
-  overflow: hidden;
+nav {/* makes sure that the nav doesnt go below 30px */
+  min-height: 30px;
+ overflow: hidden;
  position:fixed;
  top: 0;
  width: 100%;
