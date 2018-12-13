@@ -1,0 +1,18 @@
+.column {
+  border-bottom: thin dashed #7b96bc;
+}
+
+.header {
+
+  height: 120px;
+  background-image: url(images/200.jpg) no-repeat;
+ 
+}
+
+.headerImage {
+	height: 200px;
+	background-size: cover;
+	background:url(images/200.jpg) no-repeat;
+	width:auto;
+
+}
