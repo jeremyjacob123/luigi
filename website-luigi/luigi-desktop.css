@@ -39,3 +39,8 @@ width: auto;
   font-weight: bold;
 }
  
+ img:hover {
+  transition: .5s;
+  transform: scale(1.5);
+  padding: 50px;
+}
