@@ -39,8 +39,8 @@ width: auto;
   font-weight: bold;
 }
  
- img:hover {
+ #menu img:hover {
   transition: .5s;
-  transform: scale(1.5);
-  padding: 50px;
+  transform: scale(1.25);
+  padding: 75px;
 }
